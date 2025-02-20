@@ -7,7 +7,7 @@ import seaborn as sns
 import sys
 import io
 
-GOOGLE_API_KEY = "AIzaSyAT6PmJVITWLxrZxYa7qcfP-oB828211Eg"
+GOOGLE_API_KEY = "API_KEY"
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel("gemini-pro")
